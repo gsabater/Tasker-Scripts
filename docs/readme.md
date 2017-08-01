@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+# Tasker Scripts
 
-You can use the [editor on GitHub](https://github.com/gsabater/Tasker-Scripts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Tasker Scripts is a collection of tools made in JavaScript to run on tasker.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation
+To install Tasker Scripts, you need to download the main tasker-scripts.js file on your device storage.
 
 ### Markdown
 
