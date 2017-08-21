@@ -1,7 +1,6 @@
- flash('55');
+flash('55');
 //flash(global('DEVICE'));
 flash(this);
-
 
 
 // Anonymous "self-invoking" function
@@ -13,11 +12,11 @@ flash(this);
     script.onload = function() {
         var $ = window.jQuery;
         // Use $ here...
-flash($);
+        flash($);
+
     };
     document.getElementsByTagName("head")[0].appendChild(script);
 })();
-
 
 
 flash('end');
