@@ -1,0 +1,100 @@
+<TaskerData sr="" dvi="1" tv="5.0u3m">
+	<Profile sr="prof3" ve="2">
+		<cdate>1484403007785</cdate>
+		<clp>true</clp>
+		<edate>1503263354067</edate>
+		<id>3</id>
+		<mid0>2</mid0>
+		<nme>LaunchPlayerOnHeadset</nme>
+		<State sr="con0" ve="2">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+		</State>
+	</Profile>
+	<Task sr="task2">
+		<cdate>1482479189806</cdate>
+		<edate>1503263354067</edate>
+		<id>2</id>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<on>false</on>
+			<App sr="arg0">
+				<appClass>com.android.music.activitymanagement.TopLevelActivity</appClass>
+				<appPkg>com.google.android.music</appPkg>
+				<label>Play Música</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>171</code>
+			<on>false</on>
+			<Int sr="arg0" val="8000"/>
+			<Int sr="arg1" val="1000"/>
+			<Int sr="arg2" val="50"/>
+			<Int sr="arg3" val="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">App Selector</Str>
+			<Str sr="arg1" ve="3">Select your music flavour</Str>
+			<Img sr="arg2" ve="2">
+				<nme>mw_av_queue_mus</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Spotify</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.spotify.music.MainActivity</appClass>
+						<appPkg>com.spotify.music</appPkg>
+						<label>Spotify</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Local Music</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.android.music.activitymanagement.TopLevelActivity</appClass>
+						<appPkg>com.google.android.music</appPkg>
+						<label>Play Música</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+			</ListElementItem>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>47</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Unlocker</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>550</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Musik</Str>
+			<Str sr="arg1" ve="3">Mukiw?</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Popup</Str>
+			<Int sr="arg4" val="2"/>
+			<Int sr="arg5" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
