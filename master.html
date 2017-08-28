@@ -3,20 +3,34 @@
     <meta charset="utf-8" />
     <title>Tasker</title>
 
-    <link href="//fonts.googleapis.com/css?family=Lato:700,400,400italic,700italic" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100" rel="stylesheet" />
     <style>
         body {
-            width: 555px
             margin: 0 auto
-            font: normal 14px/1.42 "Lato", sans-serif
-            background: url('https://source.unsplash.com/random/800x600') top center no-repeat fixed;
+            font: normal 14px/1.42 "Roboto", sans-serif
+            background: url('http://source.unsplash.com/random/800x600') top center no-repeat fixed;
             background-size: cover; padding-top: 75px;
         }
     </style>
+
 </head>
 <body>
 
-<h1>Tasker</h1>
+<H1 onClick="flash( 'Tasker flash!')">Taskering</H1>
 
+<div id="log" style="font-family: 'Roboto'; line-height: 18px; color: #731717; letter-spacing: 0.5px;"></div>
+
+    <script type="text/javascript">
+        // Catch errors
+        window.onerror = function(errorMsg, url, lineNumber, column, errorObj) {
+            document.getElementById('log').innerHTML += '<br><strong>New error!</strong><br>'+
+            errorMsg + '<br>' +
+            url + ':'+lineNumber+'<br>' +
+            errorObj + '<hr>';
+            return true;
+        };
+
+    </script>
+    <script crossorigin="anonymous" type="text/javascript" src="https://gsabater.github.io/Tasker-Scripts/dist/js/dev.js"></script>
 </body>
 </html>
