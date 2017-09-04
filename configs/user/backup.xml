@@ -16,27 +16,6 @@
 			<tm>0</tm>
 		</Time>
 	</Profile>
-	<Profile sr="prof13" ve="2">
-		<cdate>1484455585828</cdate>
-		<edate>1503878145747</edate>
-		<flags>2</flags>
-		<id>13</id>
-		<limit>true</limit>
-		<mid0>12</mid0>
-		<nme>ReadNotifications</nme>
-		<Event sr="con0" ve="2">
-			<code>461</code>
-			<pri>0</pri>
-			<App sr="arg0"/>
-			<Str sr="arg1" ve="3"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Int sr="arg7" val="0"/>
-		</Event>
-	</Profile>
 	<Profile sr="prof17" ve="2">
 		<cdate>1485379538025</cdate>
 		<edate>1503877880273</edate>
@@ -56,7 +35,7 @@
 	</Profile>
 	<Profile sr="prof19" ve="2">
 		<cdate>1503353689127</cdate>
-		<edate>1503403948476</edate>
+		<edate>1504040481911</edate>
 		<flags>2</flags>
 		<id>19</id>
 		<mid0>20</mid0>
@@ -68,7 +47,7 @@
 	</Profile>
 	<Profile sr="prof22" ve="2">
 		<cdate>1503750043375</cdate>
-		<edate>1503877849128</edate>
+		<edate>1503995344053</edate>
 		<flags>2</flags>
 		<id>22</id>
 		<mid0>24</mid0>
@@ -84,7 +63,7 @@
 	</Profile>
 	<Profile sr="prof27" ve="2">
 		<cdate>1503878046059</cdate>
-		<edate>1503878126332</edate>
+		<edate>1504125046857</edate>
 		<flags>2</flags>
 		<id>27</id>
 		<mid0>28</mid0>
@@ -106,19 +85,100 @@
 	</Profile>
 	<Profile sr="prof3" ve="2">
 		<cdate>1484403007785</cdate>
-		<edate>1503427222711</edate>
+		<edate>1504110205917</edate>
 		<flags>2</flags>
 		<id>3</id>
 		<mid0>2</mid0>
-		<nme>LaunchPlayerOnHeadset</nme>
+		<mid1>44</mid1>
+		<nme>LaunchMusicOnJack</nme>
 		<State sr="con0" ve="2">
 			<code>30</code>
 			<Int sr="arg0" val="0"/>
 		</State>
 	</Profile>
+	<Profile sr="prof38" ve="2">
+		<cdate>1503878046059</cdate>
+		<edate>1504124439075</edate>
+		<flags>2</flags>
+		<id>38</id>
+		<mid0>39</mid0>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.talk.SigningInActivity</appClass>
+				<appPkg>com.google.android.talk</appPkg>
+				<label>Hangouts</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof40" ve="2">
+		<cdate>1503878046059</cdate>
+		<edate>1504125176977</edate>
+		<flags>2</flags>
+		<id>40</id>
+		<mid0>41</mid0>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.google.android.apps.bigtop.activities.InitActivity</appClass>
+				<appPkg>com.google.android.apps.inbox</appPkg>
+				<label>Inbox</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof42" ve="2">
+		<cdate>1503878046059</cdate>
+		<edate>1504090861837</edate>
+		<flags>2</flags>
+		<id>42</id>
+		<mid0>43</mid0>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<App sr="arg0">
+				<appClass>com.whatsapp.Main</appClass>
+				<appPkg>com.whatsapp</appPkg>
+				<label>WhatsApp</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof47" ve="2">
+		<cdate>1504095409999</cdate>
+		<edate>1504110269687</edate>
+		<flags>2</flags>
+		<id>47</id>
+		<mid0>48</mid0>
+		<mid1>50</mid1>
+		<nme>LaunchMusicOnBluetooth</nme>
+		<State sr="con0" ve="2">
+			<code>3</code>
+			<Str sr="arg0" ve="3">Bluedio</Str>
+			<Str sr="arg1" ve="3"/>
+		</State>
+	</Profile>
 	<Profile sr="prof8" ve="2">
 		<cdate>1484403174868</cdate>
-		<edate>1503877633998</edate>
+		<edate>1503925909333</edate>
 		<flags>2</flags>
 		<id>8</id>
 		<mid0>6</mid0>
@@ -134,12 +194,12 @@
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1484402872620</cdate>
-		<mdate>1503924968128</mdate>
+		<mdate>1504109975377</mdate>
 		<name>Base</name>
-		<pids>3,10,13,17,8,19,22,27</pids>
+		<pids>3,10,19,47</pids>
 		<psort>Alpha</psort>
 		<scenes>Web</scenes>
-		<tids>6,7,9,11,12,14,16,23,18</tids>
+		<tids>11,18,45,49</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<cls>net.dinglisch.android.taskerm.Tasker</cls>
@@ -148,9 +208,25 @@
 	</Project>
 	<Project sr="proj1" ve="2">
 		<cdate>1503925265205</cdate>
-		<mdate>1503925265205</mdate>
+		<mdate>1503926041591</mdate>
 		<name>Data</name>
+		<pids>17,22,8</pids>
 		<psort>Alpha</psort>
+		<tids>23,6,7,9</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_device_signal_wifi_2_bar</nme>
+		</Img>
+	</Project>
+	<Project sr="proj2" ve="2">
+		<cdate>1503925940929</cdate>
+		<mdate>1504039153070</mdate>
+		<name>Notifications</name>
+		<pids>27,38,40,42</pids>
+		<psort>Alpha</psort>
+		<tids>14,36,37</tids>
+		<Img sr="icon" ve="2">
+			<nme>mw_av_volume_up</nme>
+		</Img>
 	</Project>
 	<Scene sr="sceneWeb">
 		<cdate>1503308713021</cdate>
@@ -187,7 +263,7 @@
 	</Scene>
 	<Task sr="task11">
 		<cdate>1484434483156</cdate>
-		<edate>1503403886726</edate>
+		<edate>1504086780262</edate>
 		<id>11</id>
 		<nme>Casio</nme>
 		<pri>6</pri>
@@ -197,62 +273,63 @@
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act1" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%TIME</lhs>
-					<op>0</op>
-					<rhs>01.00</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>810</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/media/casio.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="3"/>
-			<Int sr="arg4" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>06.00</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>305</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>06.00</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>307</code>
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>6</op>
+					<rhs>06.00</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>38</code>
+			<code>307</code>
+			<Int sr="arg0" val="11"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%TIME</lhs>
+					<op>0</op>
+					<rhs>08.00</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
 		<Action sr="act5" ve="7">
-			<code>37</code>
+			<code>305</code>
+			<Int sr="arg0" val="7"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%TIME</lhs>
@@ -262,371 +339,51 @@
 			</ConditionList>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="11"/>
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/media/casio.mp3</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>305</code>
-			<Int sr="arg0" val="7"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%TIME</lhs>
-					<op>6</op>
-					<rhs>6</rhs>
-				</Condition>
-			</ConditionList>
+			<Int sr="arg3" val="3"/>
+			<Int sr="arg4" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_ab_device_access_time</nme>
 		</Img>
 	</Task>
-	<Task sr="task12">
-		<cdate>1483451038104</cdate>
-		<edate>1503877943665</edate>
-		<id>12</id>
-		<nme>ReadNotifications</nme>
-		<pri>6</pri>
+	<Task sr="task14">
+		<cdate>1484491170541</cdate>
+		<edate>1504094452371</edate>
+		<id>14</id>
+		<nme>Notifications: Toggle - Widget</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
+			<code>512</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Notifications: Say</Str>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Read set to %READNOTIFICATIONS</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>697</code>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%READNOTIFICATIONS</lhs>
 					<op>2</op>
 					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>565385068</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<AllFields>false</AllFields>
-					<AllFields-type>java.lang.Boolean</AllFields-type>
-					<BigImageNames>&lt;null&gt;</BigImageNames>
-					<BigImageNames-type>java.lang.String</BigImageNames-type>
-					<BigTextNames>&lt;null&gt;</BigTextNames>
-					<BigTextNames-type>java.lang.String</BigTextNames-type>
-					<HasReplyAction>false</HasReplyAction>
-					<HasReplyAction-type>java.lang.Boolean</HasReplyAction-type>
-					<ImageNames>&lt;null&gt;</ImageNames>
-					<ImageNames-type>java.lang.String</ImageNames-type>
-					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps0&gt;org.telegram.messenger&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;free.reddit.news&lt;/_array_InterceptApps1&gt;&lt;_array_InterceptApps2&gt;com.whatsapp&lt;/_array_InterceptApps2&gt;&lt;/StringArray&gt;</InterceptApps>
-					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
-					<InterceptPersistent>0</InterceptPersistent>
-					<InterceptPersistent-type>java.lang.String</InterceptPersistent-type>
-					<InternalActionsBig>&lt;null&gt;</InternalActionsBig>
-					<InternalActionsBig-type>java.lang.String</InternalActionsBig-type>
-					<InternalActionsSmall>&lt;null&gt;</InternalActionsSmall>
-					<InternalActionsSmall-type>java.lang.String</InternalActionsSmall-type>
-					<QueryAnyMatch>&lt;null&gt;</QueryAnyMatch>
-					<QueryAnyMatch-type>java.lang.String</QueryAnyMatch-type>
-					<QueryAppName>&lt;null&gt;</QueryAppName>
-					<QueryAppName-type>java.lang.String</QueryAppName-type>
-					<QueryAppPackage>&lt;null&gt;</QueryAppPackage>
-					<QueryAppPackage-type>java.lang.String</QueryAppPackage-type>
-					<QueryText>&lt;null&gt;</QueryText>
-					<QueryText-type>java.lang.String</QueryText-type>
-					<QueryTitle>&lt;null&gt;</QueryTitle>
-					<QueryTitle-type>java.lang.String</QueryTitle-type>
-					<TextNames>&lt;null&gt;</TextNames>
-					<TextNames-type>java.lang.String</TextNames-type>
-					<UseRegex>false</UseRegex>
-					<UseRegex-type>java.lang.Boolean</UseRegex-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Persistency Type: Both
-Notification Apps: Telegram,Relay,WhatsApp
-Use Regex: false
-Has Reply Action: false
-Get All Fields : false</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp()
-01. App name
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anbackgroundimage()
-Background Image
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anbigicon()
-04. Icon When Expanded
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%anbutton1action()
-13. Button Action 1
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1icon()
-13. Button 1 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1text()
-12. Button 1 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton2action()
-15. Button 2 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2icon()
-15. Button 2 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2text()
-14. Button 2 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton3action()
-17. Button 3 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3icon()
-17. Button 3 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3text()
-16. Button 3 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton4action()
-18. Button 4 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%anbutton4icon()
-18. Button 4 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%anbutton4text()
-18. Button 4 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%anbutton5action()
-19. Button 5 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anbutton5icon()
-19. Button 5 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anbutton5text()
-19. Button 5 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%ancolor()
-Color
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%andismissaction()
-23. Action On Dismiss Id
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%angroup()
-Group
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%anicon()
-04. Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%anid()
-Id
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%aninfotext()
-10. Info Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%ankey()
-Key
-A unique instance key for this notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anpackage()
-Package Name
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%anpeople()
-People
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anpicture()
-05. Picture
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anpriority()
-Priority
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%anprogress()
-Progress
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%anprogressindeterminate()
-Progress Indeterminate
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%anprogressmax()
-Progress Max
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%anreplyaction()
-20. Action Reply
-Use with AutoNotification Reply&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%anshowchronometer()
-Show Chronometer
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%ansortkey()
-Sort Key
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%anstatus()
-Cancelled Or Created
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%anstatusbaricon()
-07. Status Bar Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%anstatusbaricon()
-Status Bar Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%ansubtext()
-08. SubText
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%ansummary()
-Is Summary
-Will be set to &amp;lt;b&amp;gt;1&amp;lt;/b&amp;gt; if it's a summary and &amp;lt;b&amp;gt;will not be set&amp;lt;/b&amp;gt; otherwise.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%ansummarytext()
-09. Summary Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%antag()
-Tag
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%antext()
-03. Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%antextbig()
-03. Text When Expanded
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%antextlines()
-11. Text Lines
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%anticker()
-03. Ticker Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%antitle()
-02. Title
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%antitlebig()
-02. Title When Expanded
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%antouchaction()
-22. Action On Touch Id
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%anwhen()
-Show When
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps InterceptPersistent plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>969c5e12-2806-4d72-9c84-a34e651dd8d7</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotificationQuery</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotificationQuery</Str>
-			<Int sr="arg3" val="20"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">-- %errmsg -- %anticker()</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%anapp1</lhs>
-					<op>13</op>
-					<rhs></rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">%antitle1, %antextbig1</Str>
-			<Str sr="arg1" ve="3">com.google.android.tts:spa-esp</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>548</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%SPEECH</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>2046367074</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<App>&lt;null&gt;</App>
-					<App-type>java.lang.String</App-type>
-					<CancelAll>false</CancelAll>
-					<CancelAll-type>java.lang.Boolean</CancelAll-type>
-					<CaseinsensitiveApp>false</CaseinsensitiveApp>
-					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
-					<CaseinsensitivePackage>false</CaseinsensitivePackage>
-					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
-					<CaseinsensitiveText>false</CaseinsensitiveText>
-					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
-					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
-					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
-					<ExactApp>false</ExactApp>
-					<ExactApp-type>java.lang.Boolean</ExactApp-type>
-					<ExactPackage>false</ExactPackage>
-					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
-					<ExactText>false</ExactText>
-					<ExactText-type>java.lang.Boolean</ExactText-type>
-					<ExactTitle>false</ExactTitle>
-					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
-					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps0&gt;org.telegram.messenger&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;com.whatsapp&lt;/_array_InterceptApps1&gt;&lt;/StringArray&gt;</InterceptApps>
-					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
-					<InvertApp>false</InvertApp>
-					<InvertApp-type>java.lang.Boolean</InvertApp-type>
-					<InvertPackage>false</InvertPackage>
-					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
-					<InvertText>false</InvertText>
-					<InvertText-type>java.lang.Boolean</InvertText-type>
-					<InvertTitle>false</InvertTitle>
-					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
-					<OtherId>&lt;null&gt;</OtherId>
-					<OtherId-type>java.lang.String</OtherId-type>
-					<OtherPackage>&lt;null&gt;</OtherPackage>
-					<OtherPackage-type>java.lang.String</OtherPackage-type>
-					<OtherTag>&lt;null&gt;</OtherTag>
-					<OtherTag-type>java.lang.String</OtherTag-type>
-					<PackageName>&lt;null&gt;</PackageName>
-					<PackageName-type>java.lang.String</PackageName-type>
-					<RegexApp>false</RegexApp>
-					<RegexApp-type>java.lang.Boolean</RegexApp-type>
-					<RegexPackage>false</RegexPackage>
-					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
-					<RegexText>false</RegexText>
-					<RegexText-type>java.lang.Boolean</RegexText-type>
-					<RegexTitle>false</RegexTitle>
-					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
-					<Text>&lt;null&gt;</Text>
-					<Text-type>java.lang.String</Text-type>
-					<Title>&lt;null&gt;</Title>
-					<Title-type>java.lang.String</Title-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Cancel All: false
-Notification Apps: Telegram,WhatsApp</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<notificaitionid>&lt;null&gt;</notificaitionid>
-					<notificaitionid-type>java.lang.String</notificaitionid-type>
-					<plugininstanceid>f507a301-f3ce-4aca-bde5-c315caafd836</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigCancelNotification</Str>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%SPEECH</lhs>
-					<op>12</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="6"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>697</code>
-		</Action>
-		<Img sr="icn" ve="2">
-			<cls>com.google.android.googlequicksearchbox.VoiceSearchActivity</cls>
-			<pkg>com.google.android.googlequicksearchbox</pkg>
-		</Img>
-	</Task>
-	<Task sr="task14">
-		<cdate>1484491170541</cdate>
-		<edate>1503004473131</edate>
-		<id>14</id>
-		<nme>ReadNotificationsToggle</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%READNOTIFICATIONS</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>697</code>
-		</Action>
-		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%READNOTIFICATIONS</Str>
 			<Str sr="arg1" ve="3">false</Str>
@@ -634,15 +391,15 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act5" ve="7">
 			<code>779</code>
 			<Str sr="arg0" ve="3">Read Notifications</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act6" ve="7">
 			<code>43</code>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%READNOTIFICATIONS</Str>
 			<Str sr="arg1" ve="3">true</Str>
@@ -650,21 +407,21 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act8" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Read Notifications</Str>
 			<Str sr="arg1" ve="3">Reading notifications</Str>
 			<Img sr="arg2" ve="2">
-				<nme>cust_scrubber_normal</nme>
+				<nme>mw_av_volume_up</nme>
 			</Img>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<ListElementItem sr="item0">
-				<label>Shut The Fuck Up</label>
+				<label>Turn Off</label>
 				<Action sr="action" ve="7">
 					<code>130</code>
-					<Str sr="arg0" ve="3">ReadNotificationsToggle</Str>
+					<Str sr="arg0" ve="3">Notifications: Toggle - Widget</Str>
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
@@ -674,338 +431,9 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<Int sr="arg5" val="0"/>
 				</Action>
 			</ListElementItem>
-			<ListElementItem sr="item1">
-				<label>Ssshhh</label>
-				<Action sr="action" ve="7">
-					<code>697</code>
-				</Action>
-				<Img sr="icon" ve="2">
-					<nme>hd_aaa_ext_tiles_small</nme>
-				</Img>
-			</ListElementItem>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act9" ve="7">
 			<code>38</code>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Read set to %READNOTIFICATIONS</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<cls>com.google.android.googlequicksearchbox.VoiceSearchActivity</cls>
-			<pkg>com.google.android.googlequicksearchbox</pkg>
-		</Img>
-	</Task>
-	<Task sr="task16">
-		<cdate>1483451038104</cdate>
-		<edate>1503877940827</edate>
-		<id>16</id>
-		<nme>ReadNotifications-</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%READNOTIFICATIONS</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>565385068</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<AllFields>false</AllFields>
-					<AllFields-type>java.lang.Boolean</AllFields-type>
-					<BigImageNames>&lt;null&gt;</BigImageNames>
-					<BigImageNames-type>java.lang.String</BigImageNames-type>
-					<BigTextNames>&lt;null&gt;</BigTextNames>
-					<BigTextNames-type>java.lang.String</BigTextNames-type>
-					<HasReplyAction>false</HasReplyAction>
-					<HasReplyAction-type>java.lang.Boolean</HasReplyAction-type>
-					<ImageNames>&lt;null&gt;</ImageNames>
-					<ImageNames-type>java.lang.String</ImageNames-type>
-					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps0&gt;org.telegram.messenger&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;free.reddit.news&lt;/_array_InterceptApps1&gt;&lt;_array_InterceptApps2&gt;com.whatsapp&lt;/_array_InterceptApps2&gt;&lt;/StringArray&gt;</InterceptApps>
-					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
-					<InterceptPersistent>0</InterceptPersistent>
-					<InterceptPersistent-type>java.lang.String</InterceptPersistent-type>
-					<InternalActionsBig>&lt;null&gt;</InternalActionsBig>
-					<InternalActionsBig-type>java.lang.String</InternalActionsBig-type>
-					<InternalActionsSmall>&lt;null&gt;</InternalActionsSmall>
-					<InternalActionsSmall-type>java.lang.String</InternalActionsSmall-type>
-					<QueryAnyMatch>&lt;null&gt;</QueryAnyMatch>
-					<QueryAnyMatch-type>java.lang.String</QueryAnyMatch-type>
-					<QueryAppName>&lt;null&gt;</QueryAppName>
-					<QueryAppName-type>java.lang.String</QueryAppName-type>
-					<QueryAppPackage>&lt;null&gt;</QueryAppPackage>
-					<QueryAppPackage-type>java.lang.String</QueryAppPackage-type>
-					<QueryText>&lt;null&gt;</QueryText>
-					<QueryText-type>java.lang.String</QueryText-type>
-					<QueryTitle>&lt;null&gt;</QueryTitle>
-					<QueryTitle-type>java.lang.String</QueryTitle-type>
-					<TextNames>&lt;null&gt;</TextNames>
-					<TextNames-type>java.lang.String</TextNames-type>
-					<UseRegex>false</UseRegex>
-					<UseRegex-type>java.lang.Boolean</UseRegex-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Persistency Type: Both
-Notification Apps: Telegram,Relay,WhatsApp
-Use Regex: false
-Has Reply Action: false
-Get All Fields : false</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%anapp()
-01. App name
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%anbackgroundimage()
-Background Image
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%anbigicon()
-04. Icon When Expanded
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%anbutton1action()
-13. Button Action 1
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%anbutton1icon()
-13. Button 1 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%anbutton1text()
-12. Button 1 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%anbutton2action()
-15. Button 2 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%anbutton2icon()
-15. Button 2 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%anbutton2text()
-14. Button 2 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%anbutton3action()
-17. Button 3 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%anbutton3icon()
-17. Button 3 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%anbutton3text()
-16. Button 3 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%anbutton4action()
-18. Button 4 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%anbutton4icon()
-18. Button 4 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%anbutton4text()
-18. Button 4 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%anbutton5action()
-19. Button 5 Action
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%anbutton5icon()
-19. Button 5 Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%anbutton5text()
-19. Button 5 Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%ancolor()
-Color
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%andismissaction()
-23. Action On Dismiss Id
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;%angroup()
-Group
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES20&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;%anicon()
-04. Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES21&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;%anid()
-Id
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES22&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;%aninfotext()
-10. Info Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES23&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;%ankey()
-Key
-A unique instance key for this notification&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES24&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;%anpackage()
-Package Name
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES25&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;%anpeople()
-People
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES26&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;%anpicture()
-05. Picture
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES27&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;%anpriority()
-Priority
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES28&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;%anprogress()
-Progress
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES29&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;%anprogressindeterminate()
-Progress Indeterminate
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES30&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;%anprogressmax()
-Progress Max
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES31&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;%anreplyaction()
-20. Action Reply
-Use with AutoNotification Reply&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES32&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;%anshowchronometer()
-Show Chronometer
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES33&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;%ansortkey()
-Sort Key
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES34&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;%anstatus()
-Cancelled Or Created
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES35&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;%anstatusbaricon()
-07. Status Bar Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES36&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;%anstatusbaricon()
-Status Bar Icon
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES37&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;%ansubtext()
-08. SubText
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES38&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;%ansummary()
-Is Summary
-Will be set to &amp;lt;b&amp;gt;1&amp;lt;/b&amp;gt; if it's a summary and &amp;lt;b&amp;gt;will not be set&amp;lt;/b&amp;gt; otherwise.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES39&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;%ansummarytext()
-09. Summary Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES40&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;%antag()
-Tag
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES41&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;%antext()
-03. Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES42&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;%antextbig()
-03. Text When Expanded
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES43&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;%antextlines()
-11. Text Lines
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES44&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;%anticker()
-03. Ticker Text
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES45&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;%antitle()
-02. Title
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES46&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;%antitlebig()
-02. Title When Expanded
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES47&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;%antouchaction()
-22. Action On Touch Id
-Use with AutoNotification Actions&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES48&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;%anwhen()
-Show When
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES49&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES50&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES51&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps InterceptPersistent plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<plugininstanceid>969c5e12-2806-4d72-9c84-a34e651dd8d7</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autonotification.intent.IntentNotificationQuery</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigNotificationQuery</Str>
-			<Int sr="arg3" val="20"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%anapp1: %antitle1, %antextbig1</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>137</code>
-			<on>false</on>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%anapp1</lhs>
-					<op>13</op>
-					<rhs>telegram</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>559</code>
-			<Str sr="arg0" ve="3">%anapp1: %antitle1 %antextbig1</Str>
-			<Str sr="arg1" ve="3">com.google.android.tts:spa-esp</Str>
-			<Int sr="arg2" val="3"/>
-			<Int sr="arg3" val="5"/>
-			<Int sr="arg4" val="5"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%READNOTIFICATIONS</lhs>
-					<op>0</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>2046367074</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<App>&lt;null&gt;</App>
-					<App-type>java.lang.String</App-type>
-					<CancelAll>false</CancelAll>
-					<CancelAll-type>java.lang.Boolean</CancelAll-type>
-					<CaseinsensitiveApp>false</CaseinsensitiveApp>
-					<CaseinsensitiveApp-type>java.lang.Boolean</CaseinsensitiveApp-type>
-					<CaseinsensitivePackage>false</CaseinsensitivePackage>
-					<CaseinsensitivePackage-type>java.lang.Boolean</CaseinsensitivePackage-type>
-					<CaseinsensitiveText>false</CaseinsensitiveText>
-					<CaseinsensitiveText-type>java.lang.Boolean</CaseinsensitiveText-type>
-					<CaseinsensitiveTitle>false</CaseinsensitiveTitle>
-					<CaseinsensitiveTitle-type>java.lang.Boolean</CaseinsensitiveTitle-type>
-					<ExactApp>false</ExactApp>
-					<ExactApp-type>java.lang.Boolean</ExactApp-type>
-					<ExactPackage>false</ExactPackage>
-					<ExactPackage-type>java.lang.Boolean</ExactPackage-type>
-					<ExactText>false</ExactText>
-					<ExactText-type>java.lang.Boolean</ExactText-type>
-					<ExactTitle>false</ExactTitle>
-					<ExactTitle-type>java.lang.Boolean</ExactTitle-type>
-					<InterceptApps>&lt;StringArray sr=""&gt;&lt;_array_InterceptApps0&gt;org.telegram.messenger&lt;/_array_InterceptApps0&gt;&lt;_array_InterceptApps1&gt;com.whatsapp&lt;/_array_InterceptApps1&gt;&lt;/StringArray&gt;</InterceptApps>
-					<InterceptApps-type>[Ljava.lang.String;</InterceptApps-type>
-					<InvertApp>false</InvertApp>
-					<InvertApp-type>java.lang.Boolean</InvertApp-type>
-					<InvertPackage>false</InvertPackage>
-					<InvertPackage-type>java.lang.Boolean</InvertPackage-type>
-					<InvertText>false</InvertText>
-					<InvertText-type>java.lang.Boolean</InvertText-type>
-					<InvertTitle>false</InvertTitle>
-					<InvertTitle-type>java.lang.Boolean</InvertTitle-type>
-					<OtherId>&lt;null&gt;</OtherId>
-					<OtherId-type>java.lang.String</OtherId-type>
-					<OtherPackage>&lt;null&gt;</OtherPackage>
-					<OtherPackage-type>java.lang.String</OtherPackage-type>
-					<OtherTag>&lt;null&gt;</OtherTag>
-					<OtherTag-type>java.lang.String</OtherTag-type>
-					<PackageName>&lt;null&gt;</PackageName>
-					<PackageName-type>java.lang.String</PackageName-type>
-					<RegexApp>false</RegexApp>
-					<RegexApp-type>java.lang.Boolean</RegexApp-type>
-					<RegexPackage>false</RegexPackage>
-					<RegexPackage-type>java.lang.Boolean</RegexPackage-type>
-					<RegexText>false</RegexText>
-					<RegexText-type>java.lang.Boolean</RegexText-type>
-					<RegexTitle>false</RegexTitle>
-					<RegexTitle-type>java.lang.Boolean</RegexTitle-type>
-					<Text>&lt;null&gt;</Text>
-					<Text-type>java.lang.String</Text-type>
-					<Title>&lt;null&gt;</Title>
-					<Title-type>java.lang.String</Title-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>Cancel All: false
-Notification Apps: Telegram,WhatsApp</com.twofortyfouram.locale.intent.extra.BLURB>
-					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
-Error Code
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
-Error Message
-Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>InterceptApps plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
-					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
-					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
-					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<notificaitionid>&lt;null&gt;</notificaitionid>
-					<notificaitionid-type>java.lang.String</notificaitionid-type>
-					<plugininstanceid>f507a301-f3ce-4aca-bde5-c315caafd836</plugininstanceid>
-					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
-					<plugintypeid>com.joaomgcd.autonotification.intent.IntentCancelNotification</plugintypeid>
-					<plugintypeid-type>java.lang.String</plugintypeid-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">com.joaomgcd.autonotification</Str>
-			<Str sr="arg2" ve="3">com.joaomgcd.autonotification.activity.ActivityConfigCancelNotification</Str>
-			<Int sr="arg3" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%READNOTIFICATIONS</lhs>
-					<op>0</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
 		</Action>
 		<Img sr="icn" ve="2">
 			<cls>com.google.android.googlequicksearchbox.VoiceSearchActivity</cls>
@@ -1014,7 +442,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task18">
 		<cdate>1503329869082</cdate>
-		<edate>1503877990391</edate>
+		<edate>1504040494193</edate>
 		<id>18</id>
 		<nme>devWebView</nme>
 		<pri>100</pri>
@@ -1036,61 +464,28 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task2">
 		<cdate>1482479189806</cdate>
-		<edate>1503427222711</edate>
+		<edate>1504110001719</edate>
 		<id>2</id>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">App Selector</Str>
-			<Str sr="arg1" ve="3">Select your music flavour</Str>
-			<Img sr="arg2" ve="2">
-				<nme>mw_av_queue_mus</nme>
-			</Img>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<ListElementItem sr="item0">
-				<label>Spotify</label>
-				<Action sr="action" ve="7">
-					<code>20</code>
-					<App sr="arg0">
-						<appClass>com.spotify.music.MainActivity</appClass>
-						<appPkg>com.spotify.music</appPkg>
-						<label>Spotify</label>
-					</App>
-					<Str sr="arg1" ve="3"/>
-					<Int sr="arg2" val="0"/>
-					<Int sr="arg3" val="0"/>
-				</Action>
-			</ListElementItem>
-			<ListElementItem sr="item1">
-				<label>Local Music</label>
-				<Action sr="action" ve="7">
-					<code>20</code>
-					<App sr="arg0">
-						<appClass>com.android.music.activitymanagement.TopLevelActivity</appClass>
-						<appPkg>com.google.android.music</appPkg>
-						<label>Play Música</label>
-					</App>
-					<Str sr="arg1" ve="3"/>
-					<Int sr="arg2" val="0"/>
-					<Int sr="arg3" val="0"/>
-				</Action>
-			</ListElementItem>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>307</code>
-			<Int sr="arg0" val="11"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
+			<code>130</code>
+			<Str sr="arg0" ve="3">Music Mood</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task20">
 		<cdate>1503353694546</cdate>
-		<edate>1503403948476</edate>
+		<edate>1504040481911</edate>
 		<id>20</id>
 		<Action sr="act0" ve="7">
 			<code>445</code>
-			<Str sr="arg0" ve="3">zedge/notification_sound/Ouh_la_la-notification_sound-1957728.mp3</Str>
+			<Str sr="arg0" ve="3">Tasker/media/Ouh_la_la.mp3</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="3"/>
@@ -1352,9 +747,9 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task24">
 		<cdate>1503750049044</cdate>
-		<edate>1503877849128</edate>
+		<edate>1503995344053</edate>
 		<id>24</id>
-		<pri>100</pri>
+		<pri>6</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -1412,18 +807,476 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task28">
 		<cdate>1503878050120</cdate>
-		<edate>1503878126332</edate>
+		<edate>1504125046857</edate>
 		<id>28</id>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%NTITLE</Str>
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTIFIER</Str>
+			<Str sr="arg1" ve="3">org.telegram.messenger</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Read</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task36">
+		<cdate>1504028774813</cdate>
+		<edate>1504124733268</edate>
+		<id>36</id>
+		<nme>Notifications: Read</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1010159116</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES>&lt;StringArrayList sr=""&gt;&lt;_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;%NOTIFIER&lt;/_arrlst_com.balda.notificationlistener.extra.ARRAY_PACKAGES0&gt;&lt;/StringArrayList&gt;</com.balda.notificationlistener.extra.ARRAY_PACKAGES>
+					<com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>java.util.ArrayList</com.balda.notificationlistener.extra.ARRAY_PACKAGES-type>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE>87</com.balda.notificationlistener.extra.INT_VERSION_CODE>
+					<com.balda.notificationlistener.extra.INT_VERSION_CODE-type>java.lang.Integer</com.balda.notificationlistener.extra.INT_VERSION_CODE-type>
+					<com.balda.notificationlistener.extra.OPERATION>5</com.balda.notificationlistener.extra.OPERATION>
+					<com.balda.notificationlistener.extra.OPERATION-type>java.lang.Integer</com.balda.notificationlistener.extra.OPERATION-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Aplicaciones: %NOTIFIER</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%errmsg
+Mensaje de error
+Mensaje de error si se produce un error. Está lleno sólo si Continuar Tarea Tras Error está seleccionada.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%nlqapp()
+Lista de nombres de aplicaciones
+Lista de nombres de aplicaciones&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%nlqpersistent()
+Lista de los atributos persistentes de notificación
+Puede ser true o false&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%nlqkey()
+Lista de identificadores de las notificaciones
+Identificador de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%nlqsmallicon()
+Estado de la lista barra de iconos
+Icono de la barra de estado lista de URI&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%nlqicon()
+Los iconos de aplicación
+Icono de la aplicación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%nlqcount()
+Lista de contadores de notificación
+Número proporcionado por la aplicación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%nlqtitle()
+Lista de título de notificación
+Título de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%nlqtext()
+Lista de texto de la notificación
+Texto de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%nlqbigtext()
+Lista de texto ampliado de la notificación
+Texto ampliado de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%nlqinfotext()
+Lista de Info Notificación de texto
+Info Notificación de texto&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%nlqsubtext()
+Lista de sub-texto de la notificación
+Sub-texto de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%nlqticker()
+Lista de ticker de la notificación
+Ticker de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%nlqsummary()
+Lista de resumen de la notificación
+Resumen del texto de la notificación&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;%nlqbutton1()
+Lista de botón 1 de la notificación
+Nombre del botón 1&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES14&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;%nlqbutton2()
+Lista de botón 2 de la notificación
+Nombre del botón 2&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES15&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;%nlqbutton3()
+Lista de botón 3 de la notificación
+Nombre del botón 3&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES16&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;%nlqbutton4()
+Lista de botón 4 de la notificación
+Nombre del botón 4&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES17&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;%nlqbutton5()
+Lista de botón 5 de la notificación
+Nombre del botón 5&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES18&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;%nlqline()
+Lista de línea de notificación
+Lista de notificaciones línea inbox-style&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES19&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.balda.notificationlistener.extra.ARRAY_PACKAGES</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.balda.notificationlistener</Str>
+			<Str sr="arg2" ve="3">com.balda.notificationlistener.ui.QueryEventTask</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTAPP</Str>
+			<Str sr="arg1" ve="3">%nlqapp()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTTITLE</Str>
+			<Str sr="arg1" ve="3">%nlqtitle()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTTEXT</Str>
+			<Str sr="arg1" ve="3">%nlqtext()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTTEXTBIG</Str>
+			<Str sr="arg1" ve="3">%nlqbigtext()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTINLINE</Str>
+			<Str sr="arg1" ve="3">%nlqline()</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>131</code>
+			<Str sr="arg0" ve="3">Tasker/jscripts/notification-read-helper.js</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="50"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Say</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task37">
+		<cdate>1504029079831</cdate>
+		<edate>1504124646544</edate>
+		<id>37</id>
+		<nme>Notifications: Say</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%SAYBODY</lhs>
+					<op>2</op>
+					<rhs>\%SAYBODY</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>307</code>
+			<on>false</on>
+			<Int sr="arg0" val="12"/>
 			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>697</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">%SAYTITLE %SAYBODY</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">%SAYTITLE %SAYBODY</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:spa-esp</Str>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="7"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task39">
+		<cdate>1503878050120</cdate>
+		<edate>1504124439075</edate>
+		<id>39</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTIFIER</Str>
+			<Str sr="arg1" ve="3">com.google.android.talk</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Read</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task41">
+		<cdate>1503878050120</cdate>
+		<edate>1504125176977</edate>
+		<id>41</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTIFIER</Str>
+			<Str sr="arg1" ve="3">com.google.android.apps.inbox</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Read</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task43">
+		<cdate>1503878050120</cdate>
+		<edate>1504090861837</edate>
+		<id>43</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%NOTIFIER</Str>
+			<Str sr="arg1" ve="3">com.whatsapp</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Read</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task44">
+		<cdate>1504039074758</cdate>
+		<edate>1504110101948</edate>
+		<id>44</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Toggle - Widget</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task45">
+		<cdate>1504054337861</cdate>
+		<edate>1504086783150</edate>
+		<id>45</id>
+		<nme>Today Weather</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>118</code>
+			<Str sr="arg0" ve="3">http://openweathermap.org/data/2.5/weather?q=Mallorca&amp;appid=b75216e1e1ad0da129999f82f5cc592f</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_maps_person_pin_circle</nme>
+		</Img>
+	</Task>
+	<Task sr="task48">
+		<cdate>1504095413459</cdate>
+		<edate>1504110150661</edate>
+		<id>48</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Music Mood</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task49">
+		<cdate>1504109970659</cdate>
+		<edate>1504110086886</edate>
+		<id>49</id>
+		<nme>Music Mood</nme>
+		<Action sr="act0" ve="7">
+			<code>307</code>
+			<Int sr="arg0" val="11"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">App Selector</Str>
+			<Str sr="arg1" ve="3">Select your music flavour</Str>
+			<Img sr="arg2" ve="2">
+				<nme>mw_av_queue_mus</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<ListElementItem sr="item0">
+				<label>Spotify</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.spotify.music.MainActivity</appClass>
+						<appPkg>com.spotify.music</appPkg>
+						<label>Spotify</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+			</ListElementItem>
+			<ListElementItem sr="item1">
+				<label>Local Music</label>
+				<Action sr="action" ve="7">
+					<code>20</code>
+					<App sr="arg0">
+						<appClass>com.android.music.activitymanagement.TopLevelActivity</appClass>
+						<appPkg>com.google.android.music</appPkg>
+						<label>Play Música</label>
+					</App>
+					<Str sr="arg1" ve="3"/>
+					<Int sr="arg2" val="0"/>
+					<Int sr="arg3" val="0"/>
+				</Action>
+			</ListElementItem>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Toggle - Widget</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_av_queue_mus</nme>
+		</Img>
+	</Task>
+	<Task sr="task50">
+		<cdate>1504110121409</cdate>
+		<edate>1504110269687</edate>
+		<id>50</id>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Notifications: Toggle - Widget</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%READNOTIFICATIONS</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>294</code>
+			<Int sr="arg0" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task6">
 		<cdate>1482480301351</cdate>
-		<edate>1503877591817</edate>
+		<edate>1503925909333</edate>
 		<id>6</id>
 		<nme>Data: WifiConnected</nme>
 		<Action sr="act0" ve="7">
